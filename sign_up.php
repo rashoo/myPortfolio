@@ -11,16 +11,18 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $result = mysqli_query($con, $checkUser);
 
     if (mysqli_num_rows($result) > 0) {
-        echo '<script> alert("That username is taken")</script>';
-    }elseif (empty($username)) {
+        echo '<script> alert("Sorry, that username is already taken")</script>';
+    } elseif (empty($username)) {
         echo '<script> alert("Please fill in the username!")</script>';
     } elseif (empty($password) || empty($repeat_password)) {
         echo '<script> alert("Please fill in both password fields!")';
     } elseif ($password !== $repeat_password) {
         echo '<script> alert("Your passwords do not match!")</script>';
     } elseif (!empty($username) && !empty($password)) {
-        $query = "INSERT INTO users (username, password) VALUES ('$username','".md5($password)."')";
+        $query = "INSERT INTO users (username, password) VALUES ('$username','" . md5($password) . "')";
         mysqli_query($con, $query);
+        echo "<script>alert('Account created successfully!');
+        document.location='sign_in.php'</script>";
     } else {
         echo "Could not register user!";
         header("Location: index.php");
