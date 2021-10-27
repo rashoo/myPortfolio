@@ -1,10 +1,6 @@
 <?php
     require_once "header.php";
     require_once "database.php";
- /*   $dbhost = "localhost";
-    $dbuser = "root";
-    $dbpass = "";
-    $dbname = "login_sample_db";*/
 
 $con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 

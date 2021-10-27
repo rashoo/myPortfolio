@@ -18,5 +18,6 @@
                 <a href="about_project.php">My Projects</a>
             </ul>
         </nav>
+    <br><br>
     </body>
 </html>
