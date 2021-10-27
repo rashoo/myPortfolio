@@ -34,7 +34,7 @@ a:hover, a.on {
     border: 5px solid #0000ff;
     border-radius: 18px;
     margin-right: 50%;
-    padding: 1px;
+    padding: 2px;
 }
 .project-info2 {
     font-family: "Verdana", serif;
@@ -42,6 +42,6 @@ a:hover, a.on {
     border: 5px solid #0000ff;
     border-radius: 18px;
     margin-left: 50%;
-    padding: 1px;
+    padding: 2px;
 
 }
