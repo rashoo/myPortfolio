@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             if ($result && mysqli_num_rows($result) > 0) {
                 $user_data = mysqli_fetch_assoc($result);
                 if ($user_data['password'] === $password) {
-                    echo "Login successful";
+                    echo "Login successful, welcome ".$username;
                     die;
                 }
             }
@@ -34,3 +34,5 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <input id="text" type="password" name="password" placeholder="Password"><br><br>
     <input class="register-button" id="button" type="submit" value="Sign-in"><br><br>
 </form>
+</body>
+</html>
