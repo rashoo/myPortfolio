@@ -25,10 +25,10 @@
 </section>
 
 <section class="project-info2">
-    <p>My second project is a CRUDS (Create, Read, Update, Delete, Search) storage application.
+    <p>My second project is a CRUD (Create, Read, Update, Delete) storage application.
     For this project, I chose Bootstrap to make it look visually appealing & easier to navigate.
     </p>
-    <p><a href="cruds/cruds.php">Link to 2nd Project</a></p>
+    <p><a href="cruds/index.php">Link to 2nd Project</a></p>
 </section>
 </body>
 </html>

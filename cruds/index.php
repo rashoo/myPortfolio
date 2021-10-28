@@ -30,14 +30,14 @@
         <tr>
             <th scope="col">#</th>
             <th scope="col">Image</th>
+            <th scope="col">Title</th>
             <th scope="col">Price</th>
             <th scope="col">Date Created</th>
             <th scope="col">Actions</th>
         </tr>
         </thead>
-
         <tbody>
-        <?php foreach ($products as $i => $product) { ?>
+        <?php foreach ($products as $i => $product): ?>
         <tr>
             <th scope="row"><?php echo $i + 1 ?></th>
             <td>
@@ -56,7 +56,7 @@
                 </form>
             </td>
         </tr>
-        <?php } ?>
+        <?php endforeach; ?>
         </tbody>
     </table>
     </body>
