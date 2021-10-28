@@ -1,0 +1,10 @@
+body {
+    padding: 50px;
+    background-image: linear-gradient(to right, cornflowerblue, lightgrey);}
+.product-img {
+    width: 50px;
+}
+.product-img-view {
+    width: 170px;
+}
+
