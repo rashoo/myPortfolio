@@ -4,7 +4,7 @@ require_once "database.php";
 
 $id = $_GET['id'] ?? null;
 if (!$id) {
-    header('Location: index.php');
+    header('Location: index2.php');
     exit;
 }
 
@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->bindValue(':price', $price);
 
         $stmt->execute();
-        header('Location: index.php');
+        header('Location: index2.php');
     }
 }
 ?>
@@ -68,7 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
 <p>
-    <a href="index.php" class="btn btn-sm btn-warning">Back to Products List</a>
+    <a href="index2.php" class="btn btn-sm btn-warning">Back to Products List</a>
 </p>
 <h1>Update Product: <b><?php echo $product['title'] ?></b></h1>
 

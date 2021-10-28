@@ -3,7 +3,7 @@
 
     $id = $_POST['id'] ?? null;
     if (!$id) {
-        header('Location: index.php');
+        header('Location: index2.php');
         exit;
     }
 
@@ -11,4 +11,4 @@
     $stmt->bindValue(':id', $id);
     $stmt->execute();
 
-    header('Location: index.php');
+    header('Location: index2.php');

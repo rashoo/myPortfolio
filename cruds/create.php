@@ -38,7 +38,7 @@
             $stmt->bindValue(':date', date('Y-m-d H:i:s'));
 
             $stmt->execute();
-            header('Location: index.php');
+            header('Location: index2.php');
         }
     }
 ?>
