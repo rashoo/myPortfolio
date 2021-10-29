@@ -1,5 +1,5 @@
 <?php
-    require_once "database.php";
+    include_once "database.php";
 
     $stmt = $pdo->prepare('SELECT * FROM products ORDER BY create_date DESC');
     $stmt->execute();
