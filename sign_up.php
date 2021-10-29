@@ -31,11 +31,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 ?>
 <title>Sign Up</title>
 <body>
-<form method="post" class="login-about">
+<form method="post" class="login-about-signup">
+    <img src="auth.png" alt="signup">
     <p>The sign-up process checks if the required fields
         filled in. It also checks if a username already in the database, to prevent collisions.
-        The user's password is stored securely in the database by one-way hashing, to prevent
-        password leaks.</p>
+        The user's password is stored securely in the database </p>
     <input id="text" type="text" name="username" placeholder="Username"> <br><br>
     <input id="text" type="password" name="password" placeholder="Password"><br><br>
     <input id="text" type="password" name="repeat_password" placeholder="Confirm Password"><br><br>

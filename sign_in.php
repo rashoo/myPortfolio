@@ -27,7 +27,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     }
 }
 ?>
-<form action="/sign_in.php" method="post" class="login-about">
+<form action="/sign_in.php" method="post" class="login-about-sign">
+    <img src="sign.png" alt="signup">
     <p>After creating an account, a user can then sign-in.
         The backend checks if a username already exists in the database.
         If true, you must select another username. The password is encrypted

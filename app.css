@@ -49,11 +49,23 @@ a:hover, a.on {
     text-transform: uppercase;
     font-weight: bold;
 }
-.login-about {
+.login-about-signup {
     border: 5px solid #0000ff;
     padding: 20px;
     border-radius: 18px;
     font-family: "Trebuchet MS", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
+    width: 600px;
+    margin: auto;
+}
+.login-about-sign {
+    border: 5px solid #0000ff;
+    padding: 20px;
+    border-radius: 18px;
+    font-family: "Trebuchet MS", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 600px;
+    margin: auto;
 }
