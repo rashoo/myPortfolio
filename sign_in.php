@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                     header("Location: welcome.php");
                     die;
                 }
-            }
+            } return $result;
         } echo "Sorry, username or password does not exist!";
     } else {
         echo "Sorry, username or password does not exist!";

@@ -1,34 +1,33 @@
 <?php
-require_once "functions.php";
-require_once "database.php";
-
-$id = $_GET['id'] ?? null;
+    require_once "functions.php";
+    require_once "database.php";
+    //id associated with user info uploaded
+    $id = $_GET['id'] ?? null;
 if (!$id) {
     header('Location: index2.php');
     exit;
 }
+    $stmt = $pdo->prepare('SELECT * FROM products WHERE id = :id');
+    $stmt->bindValue(':id', $id);
+    $stmt->execute();
+    $product = $stmt->fetch(PDO::FETCH_ASSOC);
 
-$stmt = $pdo->prepare('SELECT * FROM products WHERE id = :id');
-$stmt->bindValue(':id', $id);
-$stmt->execute();
-$product = $stmt->fetch(PDO::FETCH_ASSOC);
-
-$title = $product['title'];
-$description = $product['description'];
-$price = $product['price'];
-
+    $title = $product['title'];
+    $description = $product['description'];
+    $price = $product['price'];
+//get user input
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title = $_POST['title'];
     $description = $_POST['description'];
     $price = $_POST['price'];
-
+//load image if exists
     $image = $_FILES['image'] ?? null;
     $imagePath = '';
 
     if (!is_dir('images')) {
         mkdir('images');
     }
-
+//if images provided, upload path
     if ($image) {
         if ($product['image']) {
             unlink($product['image']);
@@ -48,6 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->bindValue(':image', $imagePath);
         $stmt->bindValue(':description', $description);
         $stmt->bindValue(':price', $price);
+        $stmt->bindValue(':id', $id);
 
         $stmt->execute();
         header('Location: index2.php');

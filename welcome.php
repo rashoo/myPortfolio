@@ -1,5 +1,5 @@
 <?php
-include_once "header.php";
+    include_once "header.php";
 ?>
 
 <title>Home</title>
@@ -17,6 +17,8 @@ include_once "header.php";
     If it's a match, the user signs in successfully! Your password is encrypted & is securely stored in the database.
     Not even the database administrator can see it.
 </p>
+
+
 
 </body>
 </html>
