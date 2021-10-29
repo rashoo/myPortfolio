@@ -1,10 +1,48 @@
 body {
     padding: 50px;
-    background-image: linear-gradient(to right, cornflowerblue, lightgrey);}
+    background-image: linear-gradient(to right, cornflowerblue, navajowhite);
+}
 .product-img {
     width: 50px;
 }
 .product-img-view {
     width: 170px;
 }
+.button-crud {
 
+    border-radius: 55px;
+    background-color: lightsalmon;
+    border: none;
+    color: white;
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+    font-size: 28px;
+    padding: 8px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.button-crud span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.15s;
+}
+
+.button-crud span:after {
+    content: '\226A';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 20px;
+    transition: 0.15s;
+}
+
+.button-crud:hover span {
+    padding-right: 25px;
+}
+
+.button-crud:hover span:after {
+    opacity: 1;
+    right: -20px;
+}
