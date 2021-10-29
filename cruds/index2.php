@@ -1,3 +1,10 @@
+<?php
+    include_once "database.php";
+
+    $stmt = $pdo->prepare('SELECT * FROM products ORDER BY create_date DESC');
+    $stmt->execute();
+    $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,14 +17,6 @@
     <link href="app.css" rel="stylesheet"/>
 
     <title>Products Page</title>
-
-    <?php
-    include_once "database.php";
-
-    $stmt = $pdo->prepare('SELECT * FROM products ORDER BY create_date DESC');
-    $stmt->execute();
-    $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    ?>
 
 </head>
     <body>
