@@ -17,8 +17,8 @@
 </nav>
 <br>
 <section class="project-info">
-    <p>My first project is a login system. I wrote the CSS styling, without any help
-        from Bootstrap or any other frameworks along with HTML.
+    <p>My first project is a user-authentication system. I wrote the CSS styling & the HTML code, without any help
+        from Bootstrap or any other frameworks.
     The back-end is powered by PHP & MySQLi.</p>
     <p><a href="sign_up.php">Click to signup</a></p>
     <p><a href="sign_in.php">Have an account? Sign in</a></p>
