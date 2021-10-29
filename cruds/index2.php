@@ -1,9 +1,9 @@
 <?php
-    include_once "database.php";
+    /*include_once "database.php";
 
     $stmt = $pdo->prepare('SELECT * FROM products ORDER BY create_date DESC');
     $stmt->execute();
-    $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    $products = $stmt->fetchAll(PDO::FETCH_ASSOC);*/
 ?>
 <!doctype html>
 <html lang="en">
