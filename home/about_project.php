@@ -13,10 +13,12 @@
 <nav class="header-links">
     <ul>
         <a href="./../index.php">Home</a>
+        <a href="https://github.com/rashoo/myPortfolio" target="_blank">Project Code</a>
     </ul>
 </nav>
 <br>
 <section class="project-info">
+    <img src="img/proj1.jpg">
     <p>My first project is a user-authentication system. I wrote the CSS styling & the HTML code, without any help
         from Bootstrap or any other frameworks.
     The back-end is powered by PHP & MySQLi.</p>
@@ -25,8 +27,11 @@
 </section>
 
 <section class="project-info2">
-    <p>My second project is a CRUD (Create, Read, Update, Delete) storage application.
-    For this project, I chose Bootstrap to make it look visually appealing & easier to navigate.
+    <img src="img/crud.png">
+    <p>My second project is a CRUD web storage application.
+    For this project, I chose Bootstrap for easier navigation & a cleaner look.
+    The input fields are secured to prevent malicious code execution fom a hacker.
+    A user can upload, write, edit or delete their entries.
     </p>
     <p><a href="/./cruds/index2.php">Link to 2nd Project</a></p>
 </section>

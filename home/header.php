@@ -15,7 +15,7 @@
             <ul>
                 <a href="../index.php">Home</a>
                 <a href="/home/./about.php">About Me</a>
-                <a href="/home/./about_project.php">My Projects</a>
+                <a href="/home/./about_project.php">Projects</a>
             </ul>
         </nav>
     <br><br>
