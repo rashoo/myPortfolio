@@ -1,6 +1,5 @@
 <?php
     include_once "database.php";
-
     $stmt = $pdo->prepare('SELECT * FROM products ORDER BY create_date DESC');
     $stmt->execute();
     $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -15,21 +14,10 @@
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="app.css" rel="stylesheet"/>
-
-
-
-
     <title>Products Page</title>
 </head>
     <body>
-
-
-
     <a href="../about_project.php" type="button" class="button-crud"><span>Back To Projects</span></button></a>
-
-
-
-
         <h1>Item List</h1>
         <p>
             <a href="create.php" type="button" class="btn btn btn-success">Add Item</a>
@@ -40,6 +28,7 @@
             <th scope="col">#</th>
             <th scope="col">Image</th>
             <th scope="col">Title</th>
+            <th scope="col">Description</th>
             <th scope="col">Price</th>
             <th scope="col">Date Created</th>
             <th scope="col">Actions</th>
@@ -57,6 +46,8 @@
             <td><?php echo $product['title'] ?></td>
             <td><?php echo $product['price'] ?></td>
             <td><?php echo $product['create_date'] ?></td>
+            <td><?php echo $product['description'] ?></td>
+
             <td>
                 <a href="update.php?id=<?php echo $product['id'] ?>" class="btn btn-info">Edit</a>
                 <form method="post" action="delete.php" style="display: inline-block">
