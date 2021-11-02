@@ -1,5 +1,5 @@
 <?php
-    include_once "header.php";
+    include_once "./home/header.php";
 ?>
 
     <title>Home</title>

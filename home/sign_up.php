@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 <title>Sign Up</title>
 <body>
 <form method="post" class="login-about-signup">
-    <img src="auth.png" alt="signup">
+    <img src="img/auth.png" alt="signup">
     <p>The sign-up process checks if the required fields
         filled in. It also checks if a username already in the database, to prevent collisions.
         The user's password is stored securely in the database </p>

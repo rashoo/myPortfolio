@@ -5,12 +5,12 @@
 <title>Home</title>
 </head>
 
-<div id="img"><img src="welcome.gif" alt="Welcome!"</div>
+<div id="img"><img src="img/welcome.gif" alt="Welcome!"</div>
 
 
 
 <br><br>
-<p class="login-about">
+<p class="login-about-sign">
     YESS!! The user authentication system worked! Your password is
     securely stored in the database by a one-way hashing algorithm.
     When signing in, your entered password is hashed & then it compared it with the hashed password in the database.

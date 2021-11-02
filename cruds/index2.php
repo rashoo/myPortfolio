@@ -17,7 +17,7 @@
     <title>Products Page</title>
 </head>
     <body>
-    <a href="../about_project.php" type="button" class="button-crud"><span>Back To Projects</span></button></a>
+    <a href="../home/about_project.php" type="button" class="button-crud"><span>Back To Projects</span></button></a>
         <h1>Item List</h1>
         <p>
             <a href="create.php" type="button" class="btn btn btn-success">Add Item</a>
