@@ -40,6 +40,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $errors[] = 'Product title is required';
     }
 
+    $title = htmlentities($title);
+    $description = htmlentities($description);
+
     if (empty($errors)) {
         $stmt = $pdo->prepare("UPDATE products SET title = :title,
                         image = :image, description = :description, price = :price WHERE id = :id");

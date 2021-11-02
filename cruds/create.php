@@ -7,10 +7,10 @@
     $price = '';
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
         $title = $_POST['title'];
         $description = $_POST['description'];
         $price = $_POST['price'];
-
         $image = $_FILES['image'] ?? null;
         $imagePath = '';
 
@@ -27,6 +27,9 @@
         if (!$title) {
             $errors[] = 'Product price is required!';
         }
+
+        $title = htmlentities($title);
+        $description = htmlentities($description);
 
         if (empty($errors)) {
             $stmt = $pdo->prepare("INSERT INTO products (title, image, description, price, create_date)
@@ -72,21 +75,15 @@
         </div>
         <div class="form-group">
             <label>Product Title</label>
-            <label>
                 <input type="text" name="title" class="form-control" value="<?php echo $title ?>">
-            </label>
         </div>
         <div class="form-group">
             <label>Product Description:</label>
-            <label>
                 <textarea class="form-control" name="description"><?php echo $description ?></textarea>
-            </label>
         </div>
         <div class="form-group">
             <label>Product Price:</label>
-            <label>
                 <input type="number" step="0.01" name="price" class="form-control" value="<?php echo $price ?>">
-            </label>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
