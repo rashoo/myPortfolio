@@ -12,7 +12,7 @@
 <body>
 <nav class="header-links">
     <ul>
-        <a href="./../index.php">Home</a>
+        <a href="index.php">Home</a>
         <a href="https://github.com/rashoo/myPortfolio" target="_blank">Project Code</a>
     </ul>
 </nav>
