@@ -25,9 +25,9 @@
 
         <div class="collapse navbar-collapse" id="navmenu">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a href="https://www.linkedin.com/in/rajooh/" class="nav-link">LinkedIn</a></li>
-                <li class="nav-item"><a href="https://github.com/rashoo/myPortfolio" class="nav-link">GitHub</a></li>
-                <li class="nav-item"><a href="#learn" class="nav-link">Résumé</a></li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/rajooh/" target="_blank" class="nav-link">LinkedIn</a></li>
+                <li class="nav-item"><a href="https://github.com/rashoo/myPortfolio" target="_blank" class="nav-link">GitHub</a></li>
+                <li class="nav-item"><a href="#learn" target="_blank" class="nav-link">Résumé</a></li>
             </ul>
         </div>
     </div>
@@ -44,7 +44,7 @@
                 Developed from the keyboard & up, I have put my programming skills to build this site.<br>
                     Description & demo links to my projects are below!</p>
             </div>
-            <img class="img-fluid w-50" src="portfolio/img/undraw_static_assets_rpm6.svg" alt=""/>
+            <img class="img-fluid w-50" src="portfolio/img/background.svg" alt=""/>
         </div>
     </div>
 </section>
@@ -56,7 +56,7 @@
     <h7 class="d-md-flex justify-content-center">(Links open in a new tab)</h7>
 </section>
 
-<section class="p-1">
+<section class="bg-warning">
     <div class="container">
         <div class="row g-2">
             <div class="col-md">
@@ -73,7 +73,7 @@
                             Visual styles and the structure is entirely written out, no help from any CSS frameworks.
                             The website also links to my other projects.
                         </p>
-                        <a href="/home/index.php" class="btn btn-primary d-flex justify-content-center mt-auto">More</a>
+                        <a href="/home/index.php" target="_blank" class="btn btn-primary d-flex justify-content-center mt-auto">More</a>
                     </div>
                 </div>
             </div>
@@ -84,14 +84,14 @@
                             <i class="bi bi-person-check d-flex justify-content-center"></i>
                         </div>
                         <h5 class="card-title mb-3 text-center">
-                            Signup & Authentication App
+                            Signup & Sign-in App
                         </h5>
                         <p class="card-text">
                             Developed a web-app using PHP & MySQL that signs up a user & allows them to login.
                             It checks for a unique username. The passwords are securely stored by hashing it to prevent anyone,
                             including the database administrator from seeing it.
                         </p>
-                        <a href="/home/about_project.php" class="btn btn-primary d-flex justify-content-center mt-auto">More</a>
+                        <a href="/home/about_project.php" target="_blank" class="btn btn-primary d-flex justify-content-center mt-auto">More</a>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@
                             It allows for Create, Read, Update & Delete operations.
                             The text fields & the database are protected from malicious code injection.
                         </p>
-                        <a href="/home/about_project.php" class="btn btn-primary d-flex justify-content-center  mt-auto">More</a>
+                        <a href="/home/about_project.php" target="_blank" class="btn btn-primary d-flex justify-content-center  mt-auto">More</a>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@
                             Programmed in JavaScript to showing how various sorting algorithms work.
 
                         </p>
-                        <a href="#" class="btn btn-primary d-flex justify-content-center mt-auto">More</a>
+                        <a href="#" target="_blank" class="btn btn-primary d-flex justify-content-center mt-auto">More</a>
                     </div>
                 </div>
             </div>
