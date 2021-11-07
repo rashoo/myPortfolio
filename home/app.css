@@ -69,3 +69,7 @@ a:hover, a.on {
     width: 600px;
     margin: auto;
 }
+.crud-img {
+    height: auto;
+    width: 25%;
+}

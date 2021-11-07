@@ -25,9 +25,13 @@
 
         <div class="collapse navbar-collapse" id="navmenu">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a href="https://www.linkedin.com/in/rajooh/" target="_blank" class="nav-link">LinkedIn</a></li>
-                <li class="nav-item"><a href="https://github.com/rashoo/myPortfolio" target="_blank" class="nav-link">GitHub</a></li>
-                <li class="nav-item"><a href="#learn" target="_blank" class="nav-link">Résumé</a></li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/rajooh/" target="_blank"
+                                        class="text-light nav-link">LinkedIn</a>
+                </li>
+                <li class="nav-item"><a href="https://github.com/rashoo/myPortfolio" target="_blank"
+                                        class="text-light nav-link">GitHub</a>
+                </li>
+                <li class="nav-item"><a href="https://docs.google.com/document/d/1g3qx2GzOASit_xpW2RH21VSw77qv8C56A33mvrMq7YA/edit?usp=sharing" target="_blank" class="text-light nav-link">Résumé</a></li>
             </ul>
         </div>
     </div>
@@ -41,17 +45,16 @@
                 <p class="lead my-4">
                     Thanks for checking out my portfolio!</p>
                 <p class="lead my-1">
-                Developed from the keyboard & up, I have put my programming skills to build this site.<br>
+                    Developed from the keyboard & up, I have put my programming skills to build this site.<br>
                     Description & demo links to my projects are below!</p>
             </div>
             <img class="img-fluid w-50" src="portfolio/img/background.svg" alt=""/>
         </div>
     </div>
 </section>
-<section class="bg-primary text-light p-3">
+<section class="bg-primary text-light p-2">
     <div class="d-md-flex justify-content-center">
         <h3 class="mb-2 ">Programming Projects</h3>
-
     </div>
     <h7 class="d-md-flex justify-content-center">(Links open in a new tab)</h7>
 </section>
@@ -69,11 +72,12 @@
                             Non-Framework Webpage
                         </h5>
                         <p class="card-text">
-                            For this project, I build a website without any help from Bootstrap.
-                            Visual styles and the structure is entirely written out, no help from any CSS frameworks.
+                            I developed this site without any help from Bootstrap or other helpers.
+                            Visual styles and the structure is entirely written out with CSS.
                             The website also links to my other projects.
                         </p>
-                        <a href="/home/index.php" target="_blank" class="btn btn-primary d-flex justify-content-center mt-auto">More</a>
+                        <a href="/home/index.php" target="_blank"
+                           class="btn btn-primary d-flex justify-content-center mt-auto">More</a>
                     </div>
                 </div>
             </div>
@@ -88,10 +92,10 @@
                         </h5>
                         <p class="card-text">
                             Developed a web-app using PHP & MySQL that signs up a user & allows them to login.
-                            It checks for a unique username. The passwords are securely stored by hashing it to prevent anyone,
-                            including the database administrator from seeing it.
+                            User password is securely stored in the database.
                         </p>
-                        <a href="/home/about_project.php" target="_blank" class="btn btn-primary d-flex justify-content-center mt-auto">More</a>
+                        <a href="/home/sign_up.php" target="_blank"
+                           class="btn btn-primary d-flex justify-content-center mt-auto">More</a>
                     </div>
                 </div>
             </div>
@@ -109,8 +113,10 @@
                             Created using Bootstrap for easier navigation & cleaner look.
                             It allows for Create, Read, Update & Delete operations.
                             The text fields & the database are protected from malicious code injection.
+                            (Feel free to try it out!)
                         </p>
-                        <a href="/home/about_project.php" target="_blank" class="btn btn-primary d-flex justify-content-center  mt-auto">More</a>
+                        <a href="/cruds/index2.php" target="_blank"
+                           class="btn btn-primary d-flex justify-content-center  mt-auto">More</a>
                     </div>
                 </div>
             </div>
@@ -124,10 +130,10 @@
                             Algorithm Visualizer
                         </h5>
                         <p class="card-text">
-                            Programmed in JavaScript to showing how various sorting algorithms work.
-
+                            Programmed in JavaScript showing how the bubble sorting algorithm works.
                         </p>
-                        <a href="#" target="_blank" class="btn btn-primary d-flex justify-content-center mt-auto">More</a>
+                        <a href="/sorting/index.php" target="_blank"
+                           class="btn btn-primary d-flex justify-content-center mt-auto">More</a>
                     </div>
                 </div>
             </div>
@@ -135,16 +141,17 @@
     </div>
 
 </section>
-<section class="p-5">
+
+<section class="p-5 bg-success text-light text-center text-sm-start">
     <div class="container">
-        <div class="row g-4">
-            <h2 class="text-center mb-4">Contact</h2>
+        <div class="row g-4 ">
+            <h2 class="text-center mb-0">Thanks for checking it out!</h2>
         </div>
     </div>
 </section>
 
 
-
+<script src="portfolio/home_js.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

@@ -3,7 +3,7 @@ var container = document.getElementById("array");
 // Function to generate the array of blocks
 function generatearray() {
 
-    for (var i = 0; i < 29; i++) {
+    for (var i = 0; i < 10; i++) {
         // Return a arrayValue from 1 to 100 (both inclusive)
         var arrayValue = Math.ceil(Math.random() * 100);
 

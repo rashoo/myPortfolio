@@ -27,7 +27,7 @@
 </section>
 
 <section class="project-info2">
-    <img src="img/crud.png">
+    <img src="img/crud.png" class="crud-img">
     <p>My second project is a CRUD web storage application.
     For this project, I chose Bootstrap for easier navigation & a cleaner look.
     The input fields are secured to prevent malicious code execution fom a hacker.
@@ -35,5 +35,15 @@
     </p>
     <p><a href="/./cruds/index2.php">Link to 2nd Project</a></p>
 </section>
+
+
+<section class="project-info">
+    <img src="img/bubble.png">
+    <p>My 3rd project is an animation of Bubble Sort in action.
+        Random numbers are generated & sorts in real-time.
+    </p>
+    <p><a href="/./sorting/index.php">Link to 3rd Project</a></p>
+</section>
+
 </body>
 </html>

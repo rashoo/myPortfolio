@@ -4,8 +4,8 @@
 
     <title>Home</title>
 </head>
-    <img src="img/construction.png"> <br><br>
-    <a href="../sorting/index.html">BubbleSort</a>
+
+    <p class="login-about-sign"> Thanks for checking my site out. Feel free to use test login system & the CRUD web-app! </p>
     <br><br>
 </body>
 </html>
