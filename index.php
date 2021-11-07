@@ -20,7 +20,8 @@
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navmenu">
-            <span class="navbar-toggler-icon"></span></button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="navmenu">
             <ul class="navbar-nav ms-auto">
@@ -47,8 +48,6 @@
         </div>
     </div>
 </section>
-
-
 <section class="bg-primary text-light p-3">
     <div class="d-md-flex justify-content-center">
         <h3 class="mb-2 ">Programming Projects</h3>
@@ -92,7 +91,7 @@
                             It checks for a unique username. The passwords are securely stored by hashing it to prevent anyone,
                             including the database administrator from seeing it.
                         </p>
-                        <a href="#" class="btn btn-primary d-flex justify-content-center mt-auto">More</a>
+                        <a href="/home/about_project.php" class="btn btn-primary d-flex justify-content-center mt-auto">More</a>
                     </div>
                 </div>
             </div>
@@ -111,7 +110,7 @@
                             It allows for Create, Read, Update & Delete operations.
                             The text fields & the database are protected from malicious code injection.
                         </p>
-                        <a href="#" class="btn btn-primary d-flex justify-content-center  mt-auto">More</a>
+                        <a href="/home/about_project.php" class="btn btn-primary d-flex justify-content-center  mt-auto">More</a>
                     </div>
                 </div>
             </div>
