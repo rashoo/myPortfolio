@@ -45,7 +45,7 @@
             </td>
             <td><?php echo $product['title'] ?></td>
             <td><?php echo $product['price'] ?></td>
-            <td><?php echo $product['description'] ?></td>
+            <td class="product-info"><?php echo $product['description'] ?></td>
             <td><?php echo $product['create_date'] ?></td>
 
             <td>
