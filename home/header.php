@@ -13,7 +13,7 @@
     <body>
         <nav class="header-links">
             <ul>
-                <a href="../index.html">Home</a>
+                <a href="../index.php">Home</a>
                 <a href="/home/./about_project.php">Projects</a>
             </ul>
         </nav>
