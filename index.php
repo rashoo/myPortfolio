@@ -41,7 +41,7 @@
     <div class="container">
         <div class="d-sm-flex">
             <div>
-                <h1>Hi, I'm <span class="text-warning">Raju!</span></h1>
+                <h1>Hi, I'm <span class="text-warning">Raju<span id="cursor">|</span></span></h1>
                 <p class="lead my-4">
                     Thanks for checking out my portfolio!</p>
                 <p class="lead my-1">
@@ -152,7 +152,7 @@
 
 
 <script src="portfolio/home_js.js"></script>
-
+<span id="cursor">|</span> <script> var cursor = true; var speed = 250; setInterval(() => { if(cursor) { document.getElementById('cursor').style.opacity = 0; cursor = false; }else { document.getElementById('cursor').style.opacity = 1; cursor = true; } }, speed); </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
