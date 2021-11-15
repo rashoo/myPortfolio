@@ -38,7 +38,7 @@
 
 
 <section class="project-info">
-    <img src="img/bubble.png">
+    <img src="/home/img/bubble.PNG">
     <p>My 3rd project is an animation of Bubble Sort in action.
         Random numbers are generated & sorts in real-time.
     </p>
