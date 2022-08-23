@@ -31,7 +31,7 @@
                 <li class="nav-item"><a href="https://github.com/rashoo/myPortfolio" target="_blank"
                                         class="text-light nav-link">GitHub</a>
                 </li>
-                <li class="nav-item"><a href="https://docs.google.com/document/d/1jhxY9lJaqtDtm7jy4hUqky-Ci1svyeWXcGoLN35asxQ/edit?usp=sharing" target="_blank" class="text-light nav-link">Résumé</a></li>
+                <li class="nav-item"><a href="https://docs.google.com/document/d/1asc9cImFt3tDdHrk9yXLSuHbPFRE1pDa/edit?usp=sharing&ouid=107296056725629493015&rtpof=true&sd=true" target="_blank" class="text-light nav-link">Résumé</a></li>
             </ul>
         </div>
     </div>
